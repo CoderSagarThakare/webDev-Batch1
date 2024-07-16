@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+    color: black;
+}
+
+/* universal selector */
+* {
+    font-weight: bold;
+}
+
+/* element Selector */
+p {
+    color: white;
+}
+
+/* ID selector */
+#my-id {
+    color: yellow;
+}
+
+/* class selector */
+.my-class {
+    color: blue;
+}

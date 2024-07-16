@@ -1,0 +1,76 @@
+body {
+    background-color: grey;
+}
+
+.padding-5px {
+    padding: 5px;
+}
+
+.border {
+    border: 1px solid;
+}
+
+#solid-border {
+    border: 3px solid red;
+}
+
+#dashed-border {
+    border: 3px dashed purple;
+}
+
+#thin-border {
+    border: thin solid yellow;
+}
+
+#medium-border {
+    border: medium solid;
+}
+
+#thick-border {
+    border: thick solid black;
+}
+
+/* border-radius */
+.border-radius {
+    border-radius: 20px;
+}
+
+/* height */
+.height-100px {
+    height: 100px;
+}
+
+.color-green {
+    color: green;
+}
+
+.width-300px {
+    width: 300px;
+}
+
+/* background color */
+#bgcolor {
+    background-color: aqua;
+}
+
+.bgcolor-yellowgreen {
+    background-color: yellowgreen;
+}
+
+/* text shadow */
+#text-shadow {
+    text-shadow: 4px 3px 2px #800080;
+}
+
+.font-size-50px {
+    font-size: 50px;
+}
+
+.padding-25px {
+    padding: 25px;
+}
+
+/* margin */
+.margin-30px{
+    margin: 30px;
+}

@@ -1,0 +1,113 @@
+
+
+#language {
+
+    margin: 0%;
+    /*bydefault*/
+    border: auto;
+    border: 1px dashed blue;
+    /* border: thin dashed blue; */
+    /* border: medium dashed blue; */
+    /* border: thick dashed blue; */
+
+    /* all for width also */
+    /*bydefault :  height is determined by content*/
+    height: auto;
+    /* height: 300px; */
+    /* height: 100vh; */
+    /* height: 50vh; */
+    /* height: 50%; */
+
+    /* margin */
+    /* applies 10px to top, right, bottom, and left */
+    margin: 50px;
+    /* 10px for top and bottom, 20px for right and left */
+    margin: 10px 20px;
+    /* 10px top, 20px right, 30px bottom, 40px left */
+    margin: 10px 20px 30px 40px;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+
+    /* overflow property */
+
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: scroll; */
+    overflow-y: scroll;
+
+    box-shadow: 5px 5px 5px red;
+}
+
+.child{
+    background-color: blue;
+}
+
+.text-container{
+    width: 300px;
+    border: 1px solid red;
+
+    /* text-erap */
+    text-wrap: wrap;    
+    /* text-wrap: nowrap; */
+
+    /* word-break: break-all; */
+}
+
+
+/* Element selctor */
+body {
+    background-color: gray;
+    border: 1px solid red;
+    /* height: 500px; */
+    padding: 10px;
+}
+
+/* id selector */
+#college-name{
+    border : 1px dashed rgb(0, 97, 90);
+}
+
+#box{
+    border: 2px solid rgb(177, 22, 22);
+    /* height: 300px; */
+    width: 100px;
+    color: white;
+    padding: 20px;
+    margin: 50px;
+    /* background-color: yellow; */
+}
+
+#div1 , #div2 , #div3  {
+    border:  1px solid orange;
+}
+
+.name{
+    font-size: 70px;
+    text-shadow: 5px 5px 5px rgb(46, 239, 39);
+}
+
+
+#loginform
+{
+    border : 1px dashed black;
+    padding: 20px;
+    border-radius: 10px;
+    width:100px;
+}
+
+input {
+    width:100%;
+}
