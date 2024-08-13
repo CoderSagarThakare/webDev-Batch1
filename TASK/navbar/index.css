@@ -1,0 +1,67 @@
+/* navbar task css */
+.navbar {
+    display: flex;
+    background-color: brown;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.navbar-menu:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* .parent {
+    background-color: red;
+    height: 100px;
+    border: 1px solid ;
+} */
+
+/* @media all and (min-width:200px) and (max-width : 400px){
+    .parent {
+        background-color: aqua;
+    }
+} */
+
+
+/* universal sagalyansathi */
+.my-div {
+    height: 300px;
+    border: 1px solid;
+    background-color: rgb(83, 83, 83);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.child {
+    border: 1px solid;
+}
+
+/* this media is for tablet */
+@media (min-width : 577px) {
+    .my-div {
+        background-color: red;
+        font-size: 18px;
+        flex-direction: row;
+        align-items: start;
+        justify-content:space-around;
+    }
+}
+
+/* this media query is for laptop */
+@media (min-width : 769px) {
+    .my-div {
+        background-color: rgb(255, 230, 0);
+        font-size: 24px;
+        flex-direction: column;
+        padding: 20px;
+        align-items: stretch;
+    }
+}
+
