@@ -1,0 +1,9 @@
+Block level element (Majlele porr : malach aakh pahijel)
+    Block-level elements in HTML are those elements that typically start on a new line and occupy the full width available to them. They create "blocks" of content within the document's layout.
+    Block-level elements occupy the entire width of their container, and they start on a new line. They can contain other block-level elements and inline elements.
+    (div,p,h1, ul, table, header)
+
+Inline-level Elements (garib porrr : sagal nko fkt mla pahijel tevdh gheto)
+    Inline-level elements do not start on a new line. They only take up as much width as necessary, and they can only contain data and other inline elements. They do not break the flow of content.
+    Ex. span, a, img br ,label, input
+

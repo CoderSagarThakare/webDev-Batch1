@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>First HTML Page</title>
+</head>
+
+<body>
+    <img src="images/firefox-icon.png" alt="My testing Img" />
+</body>
+
+</html>
+
+<!-- Notes
+
+<!doctype html>
+    This declaration indicates that the document is written in HTML5, which is the latest version of the HTML standard.
+    In HTML, the doctype is the required "<!DOCTYPE html>" preamble found at the top of all documents. Its sole purpose is to prevent a browser from switching into so-called "quirks mode" when rendering a document.
+    There are now three modes used by the layout engines in web browsers, quirks mode, limited-quirks mode, and no-quirks mode.
+    Layout means structure (when we think a human what we imagine : head body leg hand eyes ears hairs etc.)
+
+    The only purpose of <!DOCTYPE html> is to activate no-quirks mode.
+
+<html lang="en-US"></html> 
+    The <html> element. This element wraps all the content on the entire page and is sometimes known as the root element.
+    It also includes the lang attribute, setting the primary language of the document.
+    The lang attribute is used to provide information to browsers and search engines about the language used in the document. It helps in various aspects such as accessibility, search engine optimization, and proper rendering of text.
+    By specifying the language in the <html> tag, you're informing browsers and other tools about the primary language of your document, which can improve user experience and accessibility for users who rely on assistive technologies or screen readers.
+    Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+
+<head></head>
+    This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers. 
+
+<meta charset="UTF-8">  (Unicode Transformation Format – 8-bit.)
+    <meta charset="UTF-8"> ka matlab hai ki humare HTML document mein jo text hai, wo UTF-8 encoding ka istemal karta hai.
+    UTF-8 ek tarah ka character encoding hai jise use karke hum alag-alag languages ke characters ko represent kar sakte hain.
+    Isse humare webpage par alag-alag languages ke text sahi tareeke se display hote hain.
+    Ye tag HTML document ke <head> section mein hota hai aur ye browser ko batata hai ki text ko kis tarah se decode karna hai jisse sahi characters display ho sakein.
+
+<meta name="viewport" content="width=device-width"> 
+    Ye <meta name="viewport" content="width=device-width"> element HTML mein mobile devices par webpage ka display control karne ke liye istemal hota hai. Jab ek HTML document ke <head> section mein yeh element shamil kiya jata hai, toh yeh viewport element ensure karta hai ki webpage viewport ke width par render hoti hai.
+
+name="viewport"
+    The viewport is the visible area of a web page on a device.
+    Different devices have different viewport sizes (e.g., phones have smaller viewports, desktops have larger ones).
+
+Width=device-width:
+    This meta tag tells the browser to set the width of the viewport to the width of the device.
+    If your phone's width is 375 pixels, the viewport will also be 375 pixels wide.
+    This makes the website responsive, meaning it looks good on any screen size.
+
+Default Behavior:
+
+    Without this meta tag, the browser uses a default viewport width of 980 pixels.
+    This can make websites look too big on small screens, causing users to scroll horizontally and zoom in/out.
+
+Additional Attributes:
+    initial-scale: Sets the initial zoom level when the page loads. For example, initial-scale=1.0 means no zoom.
+    minimum-scale, maximum-scale: Limits how much users can zoom in or out.
+    user-scalable: Controls if users can zoom the page. For example, user-scalable=no stops users from zooming.
+
+<title></title> 
+    <title> element. This sets the title of your page, which is the title that appears in the browser tab the page is loaded in.
+
+<body></body> 
+    <body> element. This contains all the content that you want to show to web users when they visit your page
+
+COMMENTS IN HTML :
+    Note: Anything in HTML between "< !-- and -- >" is an HTML comment. The browser ignores comments as it renders the code. In other words, they are not visible on the page - just in the code. HTML comments are a way for you to write helpful notes about your code or logic.
+-->
