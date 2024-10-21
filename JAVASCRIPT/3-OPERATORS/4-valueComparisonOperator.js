@@ -31,7 +31,7 @@ var a1 = 5 !== "5";     // 5 === "5" => !false => true
 var a1 = 10 > 7;           // 10 is greater than 5 => true
 var a1 = 10 < 5;           // 10 is lower than 5   => false
 var a1 = 10 < 10;           // 10 is lower than 10   => false
-var a1 =  4 < 5;
+var a1 = 4 < 5;
 
 // 5. greater/lower than operator (<= && >=) =>  return true/false
 
@@ -40,3 +40,17 @@ var a1 = 5 <= 5;        // 5 is greater than 5 => true
 
 console.log(a1);
 console.log(typeof a1);
+
+
+// decimal value        => 10 value => 0---9        => contains 10 value
+// Hexadecimal value    => 16 value => 0-9 ABCDEF   => contains 16 value
+// 0-9  A=10 B=11 C=12 D=13 E=14 F=15 
+// ASCII value                  => contains 128 value
+
+// >, >=, <=, <= ya charihi operator mdhe donhi string aalya tr ascii value compare kelya jatil
+console.log(10 > 5);
+console.log("a" > "b");     // string > string => ascii > ascii => 97 > 98 => false
+console.log("Z" < "z");     // true
+
+console.log("apple" > "banana");        //  a > b => 97 > 98  => false (compares 'a' and 'b' by their ASCII/Unicode values)
+console.log("apple" > "abble");         //  a > b => 112 > 98 => true

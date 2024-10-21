@@ -1,6 +1,5 @@
 // + - / % *
 
-
 // + addition
 //  + operator wants number at both side
 
@@ -62,7 +61,7 @@ console.log(15 * false);                 //  false => 0
 console.log(15n * 5n);                   // 
 console.log("india" * "country");        // india/counntry not able to converte number => NaN*NaN
 console.log("5" * "5")                   // 5 can converte to number => 5*5 = 25
-console.log("2" * 10)                    // 10 can converte to number =>  1*10 => 20
+console.log("2" * 10)                    // 10 can converte to number =>  2*10 => 20
 
 
 // % => reminder / modulo
@@ -74,5 +73,3 @@ console.log(15 % 2);                 // =>
 console.log(15 % true);              // => 15 % 1
 console.log("india" % "country");    // => india/counntry not able to converte number => NaN % NaN
 console.log("10" % "3")              // 10/3 can converte to number => 10%3
-
-// console.log( % 5);        // =>
