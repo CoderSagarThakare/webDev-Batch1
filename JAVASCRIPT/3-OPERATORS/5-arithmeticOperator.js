@@ -4,16 +4,16 @@
 //  + operator wants number at both side
 
 console.log("------------------------------------ Addtion ------------------------------------");
-console.log(5 + 10);                // num + num => num
+console.log(510);                // num + num => num
 console.log(true + 1);              // boolean + number => number (true converte to 1)
 console.log(false + 1);             // 0+1
 
 console.log(105n + 10n);            // bigInt + bigInt => bigInt
-console.log(105n + 10);             // bigInt + number => TypeError: Cannot mix BigInt and other types, use explicit conversions
+console.log(5n + 10);             // bigInt + number => TypeError: Cannot mix BigInt and other types, use explicit conversions
 
 console.log("india" + "country")    // string + string => concate string
-console.log(10 + "10");             // number + string => concate string (not try to converte string to number in addition)
-console.log(10 + "india");          // number + string => concate string (not try to converte string to number in addition)
+console.log(10 + "10");             // number + string => concate string (not able to converte string to number in addition)
+console.log(10 + "india");          // number + string => concate string (not able to converte string to number in addition)
 
 
 // - Subtraction

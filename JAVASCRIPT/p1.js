@@ -23,3 +23,7 @@
 
 // console.log(!false)
 // console.log(!true)
+
+
+
+console.log(true && false || false && true);
