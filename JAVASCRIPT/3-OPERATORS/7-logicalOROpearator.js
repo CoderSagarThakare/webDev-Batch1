@@ -44,7 +44,7 @@ function fun4() {
     return false;
 }
 
-// Mix AND OR operator examples
+// ----------------=------------- Mix AND OR operator examples  ----------------------------------------
 
 console.log(fun1() && fun2() || fun3() || fun4());     // =>
 console.log(fun1() || fun4() && fun3() || fun4());     // =>
