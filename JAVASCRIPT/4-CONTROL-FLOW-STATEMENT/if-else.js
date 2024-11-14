@@ -12,24 +12,20 @@ const student = {
 // 1. student la only maths mdhe 60 aani science peksha jast mark pahijet
 // 2. jr maths mdhe 80 peksha kami aastil tr commerce la admission
 
-// if (student.maths > 75 || student.science > 75) {
+if (student.maths > 75 || student.science > 75) {
+    console.log("output : maths-science la admission bhetle");
+} else {
+    console.log("output : commerce la admission ghetle");
+}
 
-//     console.log("output : maths-science la admission bhetle");
+// --------------------------------------------------------------------------------
+const kavitaMarks = 72;
 
-// } else {
+if (kavitaMarks > 35) {
+    console.log("laptop gheun deu")
+}
 
-//     console.log("output : commerce la admission ghetle");
-
-// }
-
-
-
-// const  kavitaMarks = 72;
-
-// if(kavitaMarks > 35){
-//     console.log("laptop gheun deu")
-// }
-
+// --------------------------------------------------------------------------------
 
 // conditions for kusti => 
 // motha gat => 70
@@ -37,7 +33,7 @@ const student = {
 // chota gat => 35
 
 var user = {
-    weight: 80,
+    weight: 60,
 }
 
 if (user.weight > 70) {
@@ -56,26 +52,30 @@ if (user.weight < 35) {
     console.log("not allowed for custi")
 }
 
+// --------------------------------------------------------------------------------
+
+
 // if else ladder
 // multiple if block paiki ekch condition true hoil aasha veli if else ladder use kraychi
 
-// var user = {
-//     weight: 80,
-// }
+var user = {
+    weight: 80,
+}
 
-// if (user.weight > 70) {
-//     console.log("eligibal for motha gat")
+if (user.weight > 70) {
+    console.log("eligibal for motha gat")
 
-// } else if (user.weight > 50 && user.weight < 70) {     // (80>50 && 80<70) => (true && false) => false
-//     console.log("eligibal for medium gat")
+} else if (user.weight > 50 && user.weight < 70) {     // (80>50 && 80<70) => (true && false) => false
+    console.log("eligibal for medium gat")
 
-// } else if (user.weight > 35 && user.weight < 50) {     // (80>35 && 80<50) => {true && false} => false
-//     console.log("eligibal for chota gat")
+} else if (user.weight > 35 && user.weight < 50) {     // (80>35 && 80<50) => {true && false} => false
+    console.log("eligibal for chota gat")
 
-// } else {
-//     console.log("not allowed for custi")
-// }
+} else {
+    console.log("not allowed for custi")
+}
 
+// --------------------------------------------------------------------------------
 
 // nested if else examples
 if (true) {
@@ -95,30 +95,19 @@ if (true) {
     }
 }
 
+// --------------------------------------------------------------------------------
 
 // ternary =>  condition ? () : ()
 var marks = 50;
 
-marks > 35 ? "pass" : "fail" ;
-// 50 < 35
+console.log(marks > 35 ? "pass" : "fail")
 
+// --------------------------------------------------------------------------------
 
-
-// var age = 20;
-
-// if (age > 18) {
-//     console.log("eligible for vote")
-// }
-
+var age = 20;
 
 if (age > 18) {
     console.log("eligible for vote")
 } else {
     console.log("eligible not for vote")
 }
-
-
-var sagar =  {
-    laptop : true
-}
-// 
