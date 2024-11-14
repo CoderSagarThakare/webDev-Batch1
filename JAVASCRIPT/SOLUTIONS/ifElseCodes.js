@@ -19,6 +19,8 @@ if (num % 2 == 0) {
     console.log(`${num} number is odd`);
 }
 
+// --------------------------------------------------------------------------------
+
 
 /*
 
@@ -40,6 +42,8 @@ if (num < 10) {
     console.log(`${num} is greater than 10`)
 }
 
+// --------------------------------------------------------------------------------
+
 /*
 3. Write a program to determine if the user can a vote or not (a person with age above 18 can a vote)
 Input : int age = 18
@@ -57,6 +61,7 @@ if (age > 17) {     // age >= 18
     console.log("you can't vote");
 }
 
+// --------------------------------------------------------------------------------
 
 /*
 4. Write a program , take a number and print whether it is positive or negative.
@@ -82,8 +87,7 @@ if (num < 0) {
     console.log(`${num} is a positive number`);
 }
 
-
-
+// --------------------------------------------------------------------------------
 
 /**
 5. Write a program to check if a character is a vowel or consonant.
@@ -106,6 +110,7 @@ if (character == "A" || character == "E" || character == "I" || character == "O"
 } else {
     console.log(`${character} is a consonent/vyanjan`);
 }
+// --------------------------------------------------------------------------------
 
 /**
 6. Write a program, take a number and print whether the number is in range 30 to 50.
@@ -125,3 +130,40 @@ if (num > 30 && num < 50) {
 else {
     console.log(" Invalid Number")
 }
+// --------------------------------------------------------------------------------
+
+
+/**
+ 7. Write a program that categorizes a person based on their age: (use if-else ladder)
+
+0-12: Child
+13-19: Teenager
+20-64: Adult
+65 and above: Senior
+Examples:
+
+Example 1:
+Input: 25   Output: Adult
+
+Example 2:
+Input: 8   Output: Child
+
+Example 3:
+Input: 70   Output: Senior
+ */
+
+var age = 25;
+
+if(age >0 && age<=12){
+    console.log("child")
+
+}else if (age>=13 && age<=19){
+    console.log("teen ager")
+
+}else if (age >=20 && age<= 64){
+    console.log("adult")
+
+}else if(age >=65){
+    console.log("Senior")
+}
+
