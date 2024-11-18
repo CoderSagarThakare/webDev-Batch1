@@ -190,7 +190,7 @@ if (year % 4 == 0 && year % 100 != 0) {
     console.log(`${year} is leap year`);
 } else {
     console.log(`${year} is leap year`);
-}   
+}
 // --------------------------------------------------------------------------------
 
 /**
@@ -208,10 +208,10 @@ Example 3:
 Input: 30   Output: Divisible by both 3 and 5"
  */
 
-const number = 16;
+var number = 16;
 
 if (number % 3 === 0 && number % 5 === 0) {
-    console.log("Divisible by both 3 and 5") ;
+    console.log("Divisible by both 3 and 5");
 } else {
     console.log("Not divisible by both 3 and 5")
 }
@@ -264,7 +264,7 @@ Input: 30, 30
 Output: The largest number is 30
  */
 
-let num1 = 4, num2 = 8;
+var num1 = 4, num2 = 8;
 
 if (num1 > num2) {
     console.log("The largest number is " + num1);
@@ -318,11 +318,70 @@ Example 3:
 Input: 5   Output: Weekday"
  */
 
-let day = 1; 
+let day = 1;
 
 if (day === 6 || day === 7) {
     console.log("Weekend");
 } else if (day >= 1 && day <= 5) {
     console.log("Weekday");
 }
+// --------------------------------------------------------------------------------
 
+/**
+14. Write a program that takes a student's score and prints the grade: (if else ladder)
+
+90-100: A
+80-89: B
+70-79: C
+60-69: D
+Below 60: F
+
+Examples:
+
+Example 1:
+Input: 85   Output: B
+
+Example 2:
+Input: 92   Output: A
+
+Example 3:
+Input: 58   Output: F
+ */
+
+let score = 85;
+
+if (score >= 90 && score <= 100) {
+    console.log("A");
+} else if (score >= 80 && score < 90) {
+    console.log("B");
+} else if (score >= 70 && score < 80) {
+    console.log("C");
+} else if (score >= 60 && score < 70) {
+    console.log("D");
+} else if (score < 60) {
+    console.log("F");
+}
+/**
+ 15. Write a program that checks if a number is positive, negative, or zero. (if-else ladder)
+
+Examples:
+
+Example 1:
+Input: 10   Output: Positive number
+
+Example 2:
+Input: -5   Output: Negative number
+
+Example 3:
+Input: 0   Output: Zero
+ */
+
+var number = 10;
+
+if (number > 0) {
+    console.log("Positive number");
+} else if (number < 0) {
+    console.log("Negative number");
+} else {
+    console.log("Zero");
+}
