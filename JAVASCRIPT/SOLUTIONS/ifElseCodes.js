@@ -130,8 +130,8 @@ if (num > 30 && num < 50) {
 else {
     console.log(" Invalid Number")
 }
-// --------------------------------------------------------------------------------
 
+// --------------------------------------------------------------------------------
 
 /**
  7. Write a program that categorizes a person based on their age: (use if-else ladder)
@@ -154,16 +154,175 @@ Input: 70   Output: Senior
 
 var age = 25;
 
-if(age >0 && age<=12){
+if (age > 0 && age <= 12) {
     console.log("child")
 
-}else if (age>=13 && age<=19){
+} else if (age >= 13 && age <= 19) {
     console.log("teen ager")
 
-}else if (age >=20 && age<= 64){
+} else if (age >= 20 && age <= 64) {
     console.log("adult")
 
-}else if(age >=65){
+} else if (age >= 65) {
     console.log("Senior")
+}
+
+// --------------------------------------------------------------------------------
+/**
+8.  Write a program to check if a given year is a leap year.
+    A year is a leap year if it is divisible by 4, but not divisible by 100
+
+Examples:
+
+Example 1:
+Input: 2024   Output: Leap year
+
+Example 2:
+Input: 1900   Output: Not a leap year
+
+Example 3:
+Input: 2000   Output: Leap year"
+ */
+
+const year = 2000;
+
+if (year % 4 == 0 && year % 100 != 0) {
+    console.log(`${year} is leap year`);
+} else {
+    console.log(`${year} is leap year`);
+}   
+// --------------------------------------------------------------------------------
+
+/**
+9. Write a program that checks if a number is divisible by both 3 and 5.
+
+Examples:
+
+Example 1:
+Input: 15   Output: Divisible by both 3 and 5
+
+Example 2:
+Input: 9   Output: Not divisible by both 3 and 5
+
+Example 3:
+Input: 30   Output: Divisible by both 3 and 5"
+ */
+
+const number = 16;
+
+if (number % 3 === 0 && number % 5 === 0) {
+    console.log("Divisible by both 3 and 5") ;
+} else {
+    console.log("Not divisible by both 3 and 5")
+}
+// --------------------------------------------------------------------------------
+
+/**
+ 10. Write a program that checks the temperature and outputs: (if-else ladder)
+
+""Cold"" if less than 15°C
+""Warm"" if between 15°C and 30°C
+""Hot"" if greater than 30°C
+
+Examples:
+
+Example 1:
+Input: 18   Output: Warm
+
+Example 2:
+Input: 8   Output: Cold
+
+Example 3:
+Input: 35   Output: Hot"
+ */
+const temperature = 25;
+
+if (temperature < 15) {
+    console.log("Cold");
+} else if (temperature >= 15 && temperature <= 30) {
+    console.log("Warm");
+} else {
+    console.log("Hot");
+}
+// --------------------------------------------------------------------------------
+
+/**
+11. Write a JavaScript program that takes two numbers and outputs the largest number.
+
+Examples:
+
+Example 1:
+Input: 4, 8
+Output: The largest number is 8
+
+Example 2:
+Input: 15, 10
+Output: The largest number is 15
+
+Example 3:
+Input: 30, 30
+Output: The largest number is 30
+ */
+
+let num1 = 4, num2 = 8;
+
+if (num1 > num2) {
+    console.log("The largest number is " + num1);
+} else if (num2 > num1) {
+    console.log("The largest number is " + num2);
+}
+
+// --------------------------------------------------------------------------------
+/**
+12. Write a program that checks if a customer qualifies for a discount.
+The customer gets a discount if their purchase total is more than 1000 rs.
+
+Examples:
+
+Example 1:
+Input: 1500   Output: Eligible for a discount
+
+Example 2:
+Input: 750   Output: Not eligible for a discount
+
+Example 3:
+Input: 2000   Output: Eligible for a discount"
+ */
+let purchaseTotal = 1500;
+
+if (purchaseTotal > 1000) {
+    console.log("Eligible for a discount");
+} else {
+    console.log("Not eligible for a discount");
+}
+// --------------------------------------------------------------------------------
+
+/**
+ 13. "Write a program that takes a day of the week (1 to 7) and outputs whether it's a weekend or a weekday. 
+
+1 = Monday → Weekday
+2 = Tuesday → Weekday
+3 = Wednesday → Weekday
+4 = Thursday → Weekday
+5 = Friday → Weekday
+6 = Saturday → Weekend
+7 = Sunday → Weekend
+
+Example 1:
+Input: 1   Output: Weekday
+
+Example 2:
+Input: 7   Output: Weekend
+
+Example 3:
+Input: 5   Output: Weekday"
+ */
+
+let day = 1; 
+
+if (day === 6 || day === 7) {
+    console.log("Weekend");
+} else if (day >= 1 && day <= 5) {
+    console.log("Weekday");
 }
 
