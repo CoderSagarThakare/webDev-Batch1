@@ -361,6 +361,8 @@ if (score >= 90 && score <= 100) {
 } else if (score < 60) {
     console.log("F");
 }
+// --------------------------------------------------------------------------------
+
 /**
  15. Write a program that checks if a number is positive, negative, or zero. (if-else ladder)
 
@@ -385,3 +387,34 @@ if (number > 0) {
 } else {
     console.log("Zero");
 }
+
+// --------------------------------------------------------------------------------
+
+/**
+16. Write a program that takes three numbers and outputs the largest one.
+
+Examples:
+
+Example 1:
+Input: 5, 10, 3   Output: The largest number is 10
+
+Example 2:
+Input: 12, 7, 15   Output: The largest number is 15
+
+Example 3:
+Input: 20, 20, 20   Output: The largest number is 20
+ */
+
+var num1 = 5;
+var num2 = 10;
+var num3 = 3;
+
+if (num1 >= num2 && num1 >= num3) {
+    console.log("The largest number is " + num1);
+} else if (num2 >= num1 && num2 >= num3) {
+    console.log("The largest number is " + num2);
+} else {
+    console.log("The largest number is " + num3);
+}
+
+// --------------------------------------------------------------------------------
