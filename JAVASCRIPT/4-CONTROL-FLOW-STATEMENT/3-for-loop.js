@@ -52,8 +52,8 @@ var value = 6;
 // var marks = [2, 4, 43, 67, 43, 23, 45];
 
 // let i;
-// for (i = 0; i < marks.length; i++) {                
-//     console.log(marks[i])          
+// for (i = 0; i < marks.length; i++) {
+//     console.log(marks[i])
 // }
 
 // console.log("i", i);
@@ -72,3 +72,88 @@ var value = 6;
 
 // ------------------------------------------------------------
 
+
+// padhe | print table of number
+
+// 5*1 = 5
+// 5*2 = 10
+// 5*3 = 15
+// 5*4 = 20
+// 5*5 = 25
+// 5*6 = 30
+// 5*7 = 35
+// 5*8 = 40
+// 5*9 = 45
+// 5*10 = 50
+
+// var num = 4;
+
+// if (num <= 0) {
+//     // Error handeling
+//     console.log("Error : Please provide positive number");
+
+// } else {
+
+//     for (let i = 1; i <= 10; i++)
+
+//         console.log(num * i);
+// }
+// --------------------------------------------------------------
+
+// factorial
+// 1 = 1
+// 2 = 2*1 = 2
+// 3 = 3*2*1 = 6
+// 4 = 4*3*2*1 = 24
+// 5 = 5*4*3*2*1 = 120
+
+// var num = 4;
+// var fact = 1;
+
+// if(num < 0 ){
+//     console.log("Error : please provide positive num");
+// }
+// else {
+//     for(let i=num; i>0 ; i--){      // i=5 4 3
+//         fact = fact * i;
+//     }
+//     console.log(`factorial of ${num} : `,fact)
+// }
+
+// --------------------------------------------------------------
+// reverse the number
+// num => 123 => 321
+
+// var num = 2912;
+// var revValue = 0;
+
+// for (let i=0; num!=0; i++){
+//     let rem = num % 10;
+
+//     revValue = revValue*10 + rem;
+
+//     num = Math.floor(num /10);
+
+// }
+
+// console.log("reverse value ", revValue)
+// --------------------------------------------------------------
+
+// break
+
+//                0   1   2   3   4   5
+// let numbers = [10, 15, 20, 25, 30, 35];
+// let target = 20;
+// let count = 0;      //count = 0 1 2 3 4
+
+// for (let i = 0; i < numbers.length; i++) {      //i = 0 1 2 3
+//     count++;
+//     if (numbers[i] === target) {
+//         console.log(`${target} Number found at index ${i}`);
+//         break;
+//     }
+// }
+
+// console.log(`iteration count : ${count}`);
+
+//------------------------------------------------------------------------
