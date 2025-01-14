@@ -157,3 +157,82 @@ var value = 6;
 // console.log(`iteration count : ${count}`);
 
 //------------------------------------------------------------------------
+
+
+// ----------------------------------------------------------------------
+
+// Write a for loop to convert all characters in a string to uppercase.
+let str = "jay yash";
+// output => JAY YASH
+
+// console.log(str);
+
+// let uppercaseValue = "";     // J - JA - JAY - JAYspace - JAY Y - JAY YA  - JAY YAS - JAY YASH
+// //                      len = 8
+// for (let i = 0; i < str.length; i++) {        // i= 0 1 2
+
+//     uppercaseValue = uppercaseValue + str[i].toUpperCase()      // J + A = JA
+
+//     // console.log(uppercaseValue)         // J JA JAY JAYspace JAY Y   JAY YA
+// }
+
+// console.log("uppercaseValue",uppercaseValue);
+
+// console.log("str.toUpperCase() : ", str.toUpperCase());
+
+// str, upperCaseValue = box
+//column = i , i<str.length,  uppercaseValue = uppercaseValue + str[i].toUpperCase()  , 
+
+// ----------------------------------------------------------------------
+
+// Infinite for loop
+
+let ind = 0;        // ind = 0 - 3 - 4 - 5
+
+// for (ind = 3; ind !== -1; ind++) {
+//     console.log(ind)        
+// }
+
+// ----------------------------------------------------------------------
+
+// infinite loop example
+
+// for (; ;) {
+//     console.log(++ind);
+// }
+// ----------------------------------------------------------------------
+
+//           0   1   2   3   4  
+const arr = [10, 20, 30, 40, 50];
+
+// output => 50 40 30 20 10
+
+// ind = 4 3 2 1 0
+// let i;
+// for (i = arr.length - 1; i >= 0; i--) {
+
+//     console.log(arr[i])
+// }
+
+// console.log(i)
+
+// -----------------------------------------------------------------------
+
+// 
+//  const num = [20,15,25,15,20,30]        // 20+15 = 35+25 = 70+15 = 85
+//  const num = [30,20,25,15,20,30]            // 30+20 = 50+25 = 75+15 = 90
+
+
+// -----------------------------------------------------------------------
+// i = 0  2  4  6  8  10 12 14 16
+// j= 50  52 54 56 58 60 62 64 66
+
+// let i, j;
+
+// for (i = 27, j = 168; j <= 200; i = i + 12, j = j + 9) {
+//     console.log(i, j)
+// }
+// console.log("after for loop ")
+// console.log(i, j)
+
+// -------------------------------------------------------------------

@@ -23,5 +23,34 @@
 //  Nested for Loop.
 
 
-// ----------------------------------------------------------------------
 
+// NESTED FOR LOOP
+
+// * * * *
+// * * * *
+// * * * *
+// * * * *
+
+// let rows = 4, cols = 4;
+
+// for (let i = 0; i < rows; i++) {       // i represnt to rows i= 0 1 2 3 4
+
+//     for (let j = 0; j < cols; j++) {   
+//         process.stdout.write(`* `);
+//     }
+
+//     console.log();
+// }
+
+
+
+let rows = 4, cols = 6;
+
+for (let i = 0; i < rows; i++) {       // i represnt to rows i= 0 1 2 3 4
+
+    for (let j = 0; j < cols; j++) {   
+        process.stdout.write(`* `);
+    }
+
+    console.log();
+}
