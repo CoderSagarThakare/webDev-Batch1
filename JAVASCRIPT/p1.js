@@ -1,15 +1,43 @@
-// while
-// Counting Numbers
-//  
+// const btn = document.getElementsByTagName("button");
+// // console.log(btn)
 
-// do while
-// ATM Pin Verification 3 Attempts otherwise account blocked
-// Online Form Submission 
-// order in hotel if given price in range then eat otherwise i will come later
-// take order from user till user say done 
+// btn[0].addEventListener("mouseover",()=>{
+//   console.log("Hover : Mouseover event triggered")
+//   btn[0].style.background = "pink"
+// })
 
-// for(let i=1; i<=10; i++){
-//   console.log(i);
-// }
+// btn[0].addEventListener("mousedown",()=>{
+//   console.log("mousedown event triggered")
+// })
 
+// btn[0].addEventListener("click",()=>{
+//   console.log("click event triggered")
+// })
 
+// btn[0].addEventListener("mouseout",()=>{
+//   console.log("mouseout event triggered")
+//   btn[0].style.background = "none"
+// })
+
+const heading = document.getElementById("heading");
+const buttons = document.getElementsByTagName("button");
+
+buttons[0].addEventListener("mouseover", () => {
+  heading.innerText = "Welcome, Sagar";
+});
+
+buttons[1].addEventListener("mouseover", () => {
+  heading.innerText = "Welcome, Kranti";
+});
+
+buttons[2].addEventListener("mouseover", () => {
+  heading.innerText = "Welcome, Kavita";
+});
+
+// var arr = Array.from(buttons);
+
+// arr.map((ele)=>{
+//   ele.addEventListener("mouseover",()=>{
+//     console.log("j")
+//   })
+// })

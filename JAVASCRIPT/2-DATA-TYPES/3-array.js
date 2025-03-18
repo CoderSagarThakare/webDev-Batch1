@@ -51,3 +51,24 @@ console.log(marks[0].sub, marks[0].mark, marks[0].grade);
 arr = [10, 20, 30, 40, 50, "sagar", 10.4, { company: "Angular Minds" }];        // js allows us to store diff types of values
 
 // console.log(arr);
+
+
+// ----------------------------------------------------------------
+// nested 2D Array
+
+const num1 = [
+    [10, 20],
+    [100, 150, 200],
+    [500, 600, 700, 800, 900],
+  ];
+  
+  const num2 = [1, 2, 3];
+  
+  // console.log(num1[2][2][1]);
+  // console.log(num2[1]);
+  
+  for (let i = 0; i < num1.length; i++) {
+    for (let j = 0; j < num1[i].length; j++) {
+      console.log(num1[i][j]);
+    }
+  }
